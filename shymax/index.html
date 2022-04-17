@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shymax</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#" class="active"><img class="navbar-logo" src="./images//logo.png"></a>
+        <a class="otherLink know-more" href="#">Know More</a>
+        <a class="otherLink" href="#">News</a>
+        <a class="otherLink" href="#">Contact</a>
+        <a class="otherLink" href="#">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="container-home">
+        <div class="section-1">
+            <div class="section-1-content">
+                <h1 class="section-1-heading mobile-heading">Making international shipping easier</h1>
+                <p class="section1-dis">With India’s first crossborder logistics platform, you can focus on your
+                    business <br> growth while we take care of all shippings
+                <div class="sec-1-con">
+                    <input class="sec-2-con" type="text" placeholder="    Enter your email" required>
+                    <button class="sec-3-con" type="button" onclick="click1knowmore()">Know more</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-2" id="section-22">
+            <div>
+                <img src="./images/plane.png" class="train" alt="plane">
+            </div>
+            <div class="due-secion-border">
+                <div class="section2-left">
+                    <img class="sec2-left-image" src="./images/sec-2-image-new.png">
+                </div>
+                <div class="section2-right">
+                    <h1 class="sec2-right-heading font-heading graphic-font-bold">Low Cost Air Cargo Solutions from
+                        India
+                    </h1>
+
+                    <div class="bullet-container">
+                        <div class="bullet-element-container">
+                            <img class="bullet-image" src="./images/charm_circle-tick.png">
+                            <p>Shipping across 220 countries
+                            </p>
+                        </div>
+                        <div class="bullet-element-container">
+                            <img class="bullet-image" src="./images/charm_circle-tick.png">
+                            <p>Only shipment handling costs charged</p>
+                        </div>
+                        <div class="bullet-element-container">
+                            <img class="bullet-image" src="./images/charm_circle-tick.png">
+                            <p>End-to-end tracking provided</p>
+                        </div>
+                        <div class="bullet-element-container">
+                            <img class="bullet-image" src="./images/charm_circle-tick.png">
+                            <p>International warehousing facility available</p>
+                        </div>
+                    </div>
+                    <div class="know-more-button-container">
+                        <button onclick="click2knowmore()" class="primary-button" type="button">Know more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-3" id="section-33">
+            <img class="train1" src="./images/truck.png" alt="">
+            <div class="due-secion-border">
+                <div class="section2-right">
+                    <h1 class="sec2-right-heading font-heading graphic-font-bold">Enabling Tech-driven Paperwork</h1>
+                    <div class="bullet-container">
+                        <div class="bullet-element-container">
+                            <img class="bullet-image" src="./images/charm_circle-tick.png">
+                            <p>Compliance and tax calculation done by the Shypmax tech</p>
+                        </div>
+                        <div class="bullet-element-container">
+                            <img class="bullet-image" src="./images/charm_circle-tick.png">
+                            <p>Documentation for all KYC requirements provided</p>
+                        </div>
+                        <div class="bullet-element-container">
+                            <img class="bullet-image" src="./images/charm_circle-tick.png">
+                            <p>Dedicated customer support also available</p>
+                        </div>
+                    </div>
+                    <div class="know-more-button-container">
+                        <button onclick="click3knowmore()" class="primary-button" type="button">Know more</button>
+                    </div>
+                </div>
+                <div class="section2-left">
+                    <div class="sec3-right-container">
+                        <img class="sec3-image" src="./images/sec3-image-new.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="section-4">
+            <img class="train2" src="./images/dil_bike.png" alt="">
+            <div class="section-4-border">
+                <div class="section-4-heading-div">
+                    <div class="services-section">
+                        <div class="inner-width">
+                            <h1 class="section-title mobile-heading graphic-font-bold">Our Shipping Solutions</h1>
+                            <h2 class="section-titlee mobile-sub-content">
+                                Shypmax provides various international shipping services for you to choose from, based
+                                on your exact requirements.
+                            </h2>
+                            <div class="services-container">
+                                <div class="service-box">
+                                    <div class="service-icon">
+                                        <img src="./images/Group 51.png">
+
+                                    </div>
+                                    <div class="service-title"> Parcel Premium </div>
+                                    <div class="service-desc">
+                                        Be it specialized B2B shipping modes, airways, or roadways, Shypmax as a
+                                        logistics aggregator is well-equipped for all your important deliveries.
+
+                                    </div>
+                                    <div class="ser-ic">
+                                        <h2 class="Learn-More">Learn More>></h2>
+                                    </div>
+                                </div>
+
+
+                                <div class="service-box">
+                                    <div class="service-icon">
+                                        <img
+                                            src="./images/computer-icons-document-png-favpng-1bTTipvVft370Y846HjLmzbtg 1.png">
+                                    </div>
+                                    <div class="service-title"> Docu Plus </div>
+                                    <div class="service-desc">
+                                        Increase your cost efficiency & save time with our robust batch processing
+                                        system designed to render the highest level of accuracy & performance.
+                                    </div>
+                                    <div class="ser-ic">
+                                        <h2 class="Learn-More">Learn More>></h2>
+                                    </div>
+                                </div>
+
+
+                                <div class="service-box">
+                                    <div class="service-icon">
+                                        <img src="./images/Frame.png">
+                                    </div>
+                                    <div class="service-title">Express </div>
+                                    <div class="service-desc">
+                                        A perfect combination of technology and supply chain solution which optimizes
+                                        the overall shipping for a shipper.
+
+                                    </div>
+                                    <div class="ser-ic">
+                                        <h2 class="Learn-More">Learn More>></h2>
+                                    </div>
+                                </div>
+
+
+                                <div class="service-box">
+                                    <div class="service-icon">
+                                        <img id="imgggg" src="./images/Mask group.png">
+                                    </div>
+                                    <div class="service-title"> Cargo Pro </div>
+                                    <div class="service-desc">
+                                        Integrate with multiple logistics partner under one roof to fulfill domestic and
+                                        international shipment requirements
+                                    </div>
+                                    <div class="ser-ic">
+                                        <h2 class="Learn-More">Learn More>></h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-5" id="section-44">
+            <img class="train3" src="./images/gift.png" alt="">
+            <div class="due-secion-border">
+                <div class="sec5-left">
+                    <div class="sec-con">
+                        <h1 class="sec-5-heading graphic-font-bold">Integrate your favourite tools, hassle free</h1>
+                        <p class="sec-5-dis">Est ut et mollitia mollitia cupiditate quasi.Non repre nemo excepturi.
+                            Minus amet et exercitationem
+                            non reiciendis cupiditate quo aut.
+                        </p>
+                        <div class="sec-5-buttons-container">
+                            <!-- <p>Carrierplace</p>
+                            <p>Marketplace</p>
+                            <p>Processing</p>
+                            <p>Carts</p> -->
+                            <button class="sec-5-g-button graphic-font">Carrierplace</button>
+                            <button class="sec-5-g-button graphic-font">Marketplace</button>
+                            <button class="sec-5-g-button graphic-font">Processing</button>
+                            <button class="sec-5-g-button graphic-font">Carts</button>
+                        </div>
+                        <div class="know-more-button-container">
+                            <button class="primary-button">Know more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="sec5-right">
+                    <div class="company-list">
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 32.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 33.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 38.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 37.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 36.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 37.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 38.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 39.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 39.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 34.png">
+                        </div>
+                        <div class="company-element-container">
+                            <img class="company-element-image" src="./images/Group 36.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-6">
+            <div class="carosel-container-sec6">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <div data-target="#myCarousel" data-slide-to="0" class="active item-dot"></div>
+                        <div data-target="#myCarousel" data-slide-to="1" class="item-dot"></div>
+                        <div data-target="#myCarousel" data-slide-to="2" class="item-dot"></div>
+                        <div data-target="#myCarousel" data-slide-to="3" class="item-dot"></div>
+                        <div data-target="#myCarousel" data-slide-to="4" class="item-dot"></div>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="caro-slide-container">
+                                <h1 class="slide-heading">What customers say about us</h1>
+                                <p class="slide-content">
+                                    Shyplite has greatly reduced our logistics hassles and shipping costs. Their
+                                    easy-to-use dashboard and customer support team help optimize resources and increase
+                                    productivity. Would definitely recommend Shyplite to those who want to unburden
+                                    themselves from the logistics woes.
+                                </p>
+                                <div class="say-name-continer">
+                                    <img class="say-name-image" src="./images/companyName.png" alt="">
+                                    <div class="say-name-details">
+                                        <p>Apeksha Jain</p>
+                                        <p>Chief Confiturier & Founder at The Gourmet Jar</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="caro-slide-container">
+                                <h1 class="slide-heading">What customers say about us</h1>
+                                <p class="slide-content">
+                                    We’ve tried other similar services as well but came back to Shyplite’s premium and
+                                    excellent services. A reliable logistics partner can make or break any online
+                                    business, and we’d gladly recommend Shyplite if you’re in need of one!
+                                </p>
+                                <div class="say-name-continer">
+                                    <img class="say-name-image" src="./images/companyName.png" alt="">
+                                    <div class="say-name-details">
+                                        <p>Samkit Jain</p>
+                                        <p>Co-founder at Home Artisan</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="caro-slide-container">
+                                <h1 class="slide-heading">What customers say about us</h1>
+                                <p class="slide-content">
+                                    Their services have been the best when I compare them to the alternatives available
+                                    in the market. Shyplite has handled our logistics and helped us focus on procurement
+                                    and other aspects of the business. Thumbs up to the team!
+                                </p>
+                                <div class="say-name-continer">
+                                    <img class="say-name-image" src="./images/companyName.png" alt="">
+                                    <div class="say-name-details">
+                                        <p>Rupan Oberoi</p>
+                                        <p>Founder and CEO at Amaara Herbs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="caro-slide-container">
+                                <h1 class="slide-heading">What customers say about us</h1>
+                                <p class="slide-content">
+
+                                    As a startup, we faced a lot of problems dealing with each individual shipping
+                                    partner and different points of contact. Shyplite as an aggregator eased out our
+                                    entire logistics process with their automated single dashboard interface.
+                                </p>
+                                <div class="say-name-continer">
+                                    <img class="say-name-image" src="./images/companyName.png" alt="">
+                                    <div class="say-name-details">
+                                        <p>Aman Hans</p>
+                                        <p>Director at Bigsmall.in</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="caro-slide-container">
+                                <h1 class="slide-heading">What customers say about us</h1>
+                                <p class="slide-content slide-special">
+                                    90% of our customers say that <br>
+                                    their focus on expanding the <br>
+                                    <span class="bussness-text">business has increased</span> <br>
+                                    because of Shypmax.<br>
+                                </p>
+                                <p class="collact-email-slide-subcoontent">Learn how shipmax can help the logistic needs
+                                    of your business.</p>
+
+                                <div class="collect-textfield-container">
+                                    <input placeholder="Enter Your Email" type="text" class="collact-email-text-filed">
+                                    <button class="collact-email-text-button">Know More</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer-left-comtainer">
+                <img class="footer-logo-iamge" src="./images/shypmaxlogofooter.png" alt="">
+                <p class="footer-left-dis">
+                    Shypmax is India’s first crossborder LPAAS asset light carrier that creates a reliable and
+                    trustworthy shipping solution for Indian merchants to ship
+                </p>
+                <p class="footer-rights">
+                    All rights reserved. © 2022
+                </p>
+            </div>
+            <div class="footer-right-comtainer">
+                <div class="footer-links-container">
+                    <div class="footer-link-left-container">
+                        <a class="footer-link" href="#">Features</a>
+                        <a class="footer-link" href="#">Services</a>
+                        <a class="footer-link" href="#">Integrations</a>
+                        <a class="footer-link" href="#">Shyplite</a>
+                    </div>
+                    <div class="footer-link-right-container">
+                        <a class="footer-link" href="#">Facebook</a>
+                        <a class="footer-link" href="#">LinkedIn</a>
+                        <a class="footer-link" href="#">Twitter</a>
+                        <a class="footer-link" href="#">Instagram</a>
+                        <a class="footer-link" href="#">YouTube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var current = $(window).scrollTop();
+        var total = $(window).height() - current;
+
+        var ele = $(".train");
+        var ele1 = $(".train1");
+        var ele2 = $(".train2");
+        var ele3 = $(".train3");
+
+        var currPosition = ele.position().top;
+        var currPosition1 = ele1.position().top;
+        var currPosition2 = ele2.position().top;
+        var currPosition3 = ele3.position().top;
+
+        var trackLength = 180;
+        var trackLength1 = 180;
+        var trackLength2 = 180;
+        var trackLength3 = 180;
+
+        $(window).scroll(function (event) {
+
+            current = $(window).scrollTop();
+
+            var newPosition = trackLength * (current / total)
+            var newPosition1 = trackLength1 * (current / total)
+            var newPosition2 = trackLength2 * (current / total)
+            var newPosition3 = trackLength3 * (current / total)
+
+            ele.css({ top: currPosition + newPosition + 'px' });
+            ele1.css({ top: currPosition1 + newPosition1 + 'px' });
+            ele2.css({ top: currPosition2 + newPosition2 + 'px' });
+            ele3.css({ top: currPosition3 + newPosition3 + 'px' });
+        });
+
+        click1knowmore = () => {
+            const element = document.getElementById("section-22");
+            element.scrollIntoView();
+        }
+        click2knowmore = () => {
+            const element = document.getElementById("section-33");
+            element.scrollIntoView();
+        }
+        click3knowmore = () => {
+            const element = document.getElementById("section-44");
+            element.scrollIntoView();
+        }
+
+
+    </script>
+</body>
+
+</html>
